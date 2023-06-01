@@ -66,7 +66,7 @@ function update() {
 
     const squares = document.querySelectorAll('.square');
     squares.forEach((square) => {
-    square.addEventListener("mouseover", hovering);
+    square.addEventListener("mouseenter", hovering);
     })
 }
 
