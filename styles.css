@@ -6,7 +6,7 @@
 .square {
     flex: 1 0 auto;
     aspect-ratio: 1 / 1;
-    background-color: purple;
+    background-color: white;
     border: solid black 1px;
     text-align: center;
 }

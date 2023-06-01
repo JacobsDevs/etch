@@ -7,7 +7,7 @@ content.textContent = 'This is the glorious text-content Made by Jacob!!';
 container.appendChild(content);
  */
 
-
+//Establish our components
 const newDiv = document.createElement('button');
 const body = document.querySelector('body');
 newDiv.textContent = "New Size Grid?";
@@ -20,9 +20,12 @@ const container = document.createElement('div');
 body.appendChild(container);
 let chosenColor = "red";
 
+//Update is called to regenerate the grid at the desired size.  This runs on load to draw original 16 x 16 grid
 update();
 /*16 x 16 grid of square divs into container*/
 
+
+//This section adds the Random Color Palette down the bottom. This will make a new palette every load.
 function getRandomColor() {
     return Math.floor(Math.random() * 255);
 }
@@ -35,7 +38,6 @@ for (let i = 0; i < 10; i++){
     colorSquare.classList.add("colorsquare")
     colorContainer.appendChild(colorSquare);
 }
-
 body.appendChild(colorContainer)
 
 const colors = document.querySelectorAll('.colorsquare');
