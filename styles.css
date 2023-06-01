@@ -1,0 +1,22 @@
+.divrow {
+    display: flex;
+    width: 960px;
+}
+
+.square {
+    flex: 1 0 auto;
+    aspect-ratio: 1 / 1;
+    background-color: purple;
+    border: solid black 1px;
+    text-align: center;
+}
+
+.colorcontainer {
+    display: flex;
+    width: 960px;
+}
+
+.colorsquare {
+    flex: 1;
+    aspect-ratio: 1 / 1;
+}
