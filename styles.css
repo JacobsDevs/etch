@@ -1,6 +1,21 @@
 .divrow {
     display: flex;
-    width: 960px;
+    width: 480px;
+}
+
+h1 {
+    text-align: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttondiv {
+    display: flex;
+    gap: 10px;
 }
 
 .square {
@@ -13,10 +28,16 @@
 
 .colorcontainer {
     display: flex;
-    width: 960px;
+    flex-direction: column;
+    width: 48px;
 }
 
 .colorsquare {
     flex: 1;
     aspect-ratio: 1 / 1;
+}
+
+.canvasContainer {
+    display: flex;
+    gap: 10px;
 }
